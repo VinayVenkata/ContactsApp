@@ -14,6 +14,12 @@
 		9B5E987521181C980000663D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5E987321181C980000663D /* LaunchScreen.storyboard */; };
 		9B5E988021181C980000663D /* ContactsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5E987F21181C980000663D /* ContactsAppTests.swift */; };
 		9B5E988B21181C980000663D /* ContactsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5E988A21181C980000663D /* ContactsAppUITests.swift */; };
+		9B5E989A21181E7C0000663D /* TwoLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5E989821181E7C0000663D /* TwoLabelCell.swift */; };
+		9B5E989B21181E7C0000663D /* TwoLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B5E989921181E7C0000663D /* TwoLabelCell.xib */; };
+		9B5E989D211822800000663D /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5E989C211822800000663D /* NewContactViewController.swift */; };
+		9B5E989F211822B00000663D /* NewContact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5E989E211822B00000663D /* NewContact.storyboard */; };
+		9B5E98A621182C590000663D /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5E98A421182C590000663D /* TextFieldTableViewCell.swift */; };
+		9B5E98A721182C590000663D /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B5E98A521182C590000663D /* TextFieldTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		9B5E988621181C980000663D /* ContactsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5E988A21181C980000663D /* ContactsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsAppUITests.swift; sourceTree = "<group>"; };
 		9B5E988C21181C980000663D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5E989821181E7C0000663D /* TwoLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLabelCell.swift; sourceTree = "<group>"; };
+		9B5E989921181E7C0000663D /* TwoLabelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoLabelCell.xib; sourceTree = "<group>"; };
+		9B5E989C211822800000663D /* NewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
+		9B5E989E211822B00000663D /* NewContact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewContact.storyboard; sourceTree = "<group>"; };
+		9B5E98A421182C590000663D /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		9B5E98A521182C590000663D /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,12 @@
 			children = (
 				9B5E986A21181C920000663D /* AppDelegate.swift */,
 				9B5E986C21181C920000663D /* ViewController.swift */,
+				9B5E989C211822800000663D /* NewContactViewController.swift */,
+				9B5E989E211822B00000663D /* NewContact.storyboard */,
+				9B5E989821181E7C0000663D /* TwoLabelCell.swift */,
+				9B5E989921181E7C0000663D /* TwoLabelCell.xib */,
+				9B5E98A421182C590000663D /* TextFieldTableViewCell.swift */,
+				9B5E98A521182C590000663D /* TextFieldTableViewCell.xib */,
 				9B5E986E21181C920000663D /* Main.storyboard */,
 				9B5E987121181C980000663D /* Assets.xcassets */,
 				9B5E987321181C980000663D /* LaunchScreen.storyboard */,
@@ -230,8 +248,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B5E987521181C980000663D /* LaunchScreen.storyboard in Resources */,
+				9B5E98A721182C590000663D /* TextFieldTableViewCell.xib in Resources */,
 				9B5E987221181C980000663D /* Assets.xcassets in Resources */,
 				9B5E987021181C920000663D /* Main.storyboard in Resources */,
+				9B5E989F211822B00000663D /* NewContact.storyboard in Resources */,
+				9B5E989B21181E7C0000663D /* TwoLabelCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B5E986D21181C920000663D /* ViewController.swift in Sources */,
+				9B5E989A21181E7C0000663D /* TwoLabelCell.swift in Sources */,
+				9B5E989D211822800000663D /* NewContactViewController.swift in Sources */,
 				9B5E986B21181C920000663D /* AppDelegate.swift in Sources */,
+				9B5E98A621182C590000663D /* TextFieldTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
